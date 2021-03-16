@@ -1,5 +1,4 @@
 <!doctype html>
-
 <head>
 	<meta charset="utf-8">
 	<script>
@@ -9,11 +8,13 @@
     });
 	</script>
 </head>
-
 <body>
-
 	<form id="searchForm">
-    <!-- TODO: add form elements -->
+		<input type="text" name="q"/>
+		<label>Google <input type="radio" name="engine" value=""/></label>
+      	<label>DuckDuckGo <input type="radio" name="engine" value=""/></label>
+      	<label>Bing <input type="radio" name="engine" value=""/></label>
+		<label>Ask <input type="radio" name="engine" value=""/></label>
+		<button value="Go!">Go!</button>
 	</form>
-
 </body>
